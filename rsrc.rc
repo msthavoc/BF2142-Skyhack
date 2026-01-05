@@ -1,0 +1,173 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 264
+        VERTGUIDE, 142
+        VERTGUIDE, 199
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 342
+        HORZGUIDE, 146
+        HORZGUIDE, 161
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 267, 343
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_WINDOWEDGE
+CAPTION "BF2142 Multihack v0.2 mst"
+FONT 8, "Verdana", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&About",IDC_ABOUT,105,315,50,14,BS_FLAT
+    PUSHBUTTON      "E&xit",IDC_EXIT,156,315,50,14,BS_FLAT
+    LTEXT           "msthavoc | www.mst-gaming.de",IDC_STATIC,1,332,113,8,WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_X,54,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Sundirection",IDC_SUNDIRECTION,6,21,40,8,WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_Y,84,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_Z,114,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_X,54,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Flaredirection",IDC_FLAREDIRECTION,6,34,44,8,WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_Y,84,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_Z,114,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_X,54,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "DomePosition",IDC_DOMEPOS,6,47,44,8,WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_Y,84,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_Z,114,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEROT_H,54,58,58,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "DomeRotation",IDC_DOMEROT,6,59,47,8,WS_DISABLED
+    EDITTEXT        IDC_SCROLLD1_X,54,71,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Scrolldirect 1",IDC_SCROLLD1,6,72,44,8,WS_DISABLED
+    EDITTEXT        IDC_SCROLLD1_Y,84,71,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD2_X,54,84,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Scrolldirect 2",IDC_SCROLLD2,6,84,44,8,WS_DISABLED
+    EDITTEXT        IDC_SCROLLD2_Y,84,84,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Injection",IDC_INIT,54,315,50,14,BS_FLAT
+    PUSHBUTTON      "Set",IDC_SET,3,315,50,14,BS_FLAT | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD1_LAYER,114,71,10,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD2_LAYER,114,84,10,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Start Animation",IDC_ANIMATION_START,10,106,70,14,WS_DISABLED | NOT WS_TABSTOP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TIMER,233,313,29,16,ES_AUTOHSCROLL | WS_DISABLED,WS_EX_DLGMODALFRAME | WS_EX_TRANSPARENT
+    PUSHBUTTON      "Stop Animation",IDC_ANIMATION_STOP,83,106,70,14,WS_DISABLED | NOT WS_TABSTOP,WS_EX_STATICEDGE
+    LTEXT           "Timer:",IDC_TIMER_DLG,208,318,22,8,WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_X2,170,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_Y2,200,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SUNDIRECTION_Z2,230,19,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_X2,170,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_Y2,200,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_FLAREDIRECTION_Z2,230,32,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_X2,170,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_Y2,200,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEPOS_Z2,230,45,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DOMEROT_H2,170,58,58,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD1_X2,170,71,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD1_Y2,200,71,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD2_X2,170,85,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_SCROLLD2_Y2,200,85,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Target",IDC_STATIC,164,10,101,93
+    GROUPBOX        "Current",IDC_STATIC,4,10,144,93
+    EDITTEXT        IDC_FPS,209,106,40,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_TIME,166,106,40,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Time(sec)",IDC_TIME_L,171,119,34,8,SS_CENTERIMAGE | WS_DISABLED
+    LTEXT           "FPS",IDC_FPS_L,223,119,13,8,SS_CENTERIMAGE | WS_DISABLED
+    PUSHBUTTON      "Unlock CMDs",IDC_UNLOCK,7,139,50,14,BS_FLAT
+    PUSHBUTTON      "Demo Fix",IDC_DEMOFIX,58,139,50,14,BS_FLAT
+    GROUPBOX        "Skyhack",IDC_GRP_SKYHACK,2,1,263,129,BS_RIGHT,WS_EX_DLGMODALFRAME
+    GROUPBOX        "General",IDC_GRP_GENERAL,2,131,263,40,BS_RIGHT,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Hotkey List",IDC_HKL,33,154,50,14,BS_FLAT
+    PUSHBUTTON      ">>Skip>>",IDC_DEMOSKIP,171,139,57,14,BS_FLAT
+    PUSHBUTTON      "Jump",IDC_DEMOJUMPER,142,154,25,14,BS_FLAT
+    EDITTEXT        IDC_DEMOJUMPER_VALUE,170,155,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_DEMOJUMPER_VALUE2,199,155,29,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Demopos",IDC_DEMOPOS,229,157,33,8,WS_DISABLED
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
